@@ -26,7 +26,7 @@ contract MyEpicNFT is ERC721URIStorage {
     console.log("This is my NFT contract. Woah!");
   }
 
-  // I create a function to randomly pick a word from each array.
+  // I create a function to randomly pick a number from the array.
   function pickRandomFirstWord(uint256 tokenId) public view returns (string memory) {
     // I seed the random generator. More on this in the lesson. 
     uint256 rand = random(string(abi.encodePacked("FIRST_WORD", Strings.toString(tokenId))));
@@ -42,7 +42,7 @@ contract MyEpicNFT is ERC721URIStorage {
   function makeAnEpicNFT() public {
     uint256 newItemId = _tokenIds.current();
 
-    // We go and randomly grab one word from each of the three arrays.
+    // We go and randomly grab one number from the arrays.
     string memory first = pickRandomFirstWord(newItemId);
     string memory combinedWord = string(abi.encodePacked(first));
 
