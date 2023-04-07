@@ -25,4 +25,6 @@ Open the link https://testnets.opensea.io/assets/mumbai/ at last of the link jus
 - 🙄 React Code [here](https://replit.com/@ayushmaan02/IdentityNFT).
 
 ## Preview
-{% include youtube.html id="sFOin0nMw_0" %}
+[![Final video of fixing issues in your code in VS Code]
+(https://img.youtube.com/vi/sFOin0nMw_0/maxresdefault.jpg)]
+(https://youtu.be/sFOin0nMw_0)
