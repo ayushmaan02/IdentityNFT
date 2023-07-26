@@ -26,4 +26,4 @@ Open the link https://testnets.opensea.io/assets/mumbai/ at last of the link jus
 
 ## Preview
 ![](Demo.gif)
-[Video 🎥](https://youtu.be/sFOin0nMw_0)
+[comment]: <> ([Video 🎥](https://youtu.be/sFOin0nMw_0))
